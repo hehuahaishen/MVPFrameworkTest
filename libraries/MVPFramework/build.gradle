@@ -7,8 +7,8 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 21
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.0.1"
 
     }
 
@@ -33,7 +33,7 @@ dependencies {
 ext {
     publishedGroupId = rootProject.publishedGroupId            // 引用时的 第一部分
     artifact = 'MVPFramework'                                    // 引用时的 第二部分
-    libraryVersion = '1.0.0'                                   // 引用时的 第三部分
+    libraryVersion = '1.0.1'                                   // 引用时的 第三部分
     libraryName = 'MVPFramework'                                 // 本module名称
     bintrayName = 'MVPFramework'                                 // Jcenter 上显示的项目名
     bintrayRepo = rootProject.bintrayRepo                      // 仓库名

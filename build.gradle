@@ -23,7 +23,7 @@ allprojects {
         google()
         jcenter()
     }
-
+    //开源库中有中文注释,添加下面这些
     tasks.withType(Javadoc) {
         options.addStringOption('Xdoclint:none', '-quiet')
         options.addStringOption('encoding', 'UTF-8')
